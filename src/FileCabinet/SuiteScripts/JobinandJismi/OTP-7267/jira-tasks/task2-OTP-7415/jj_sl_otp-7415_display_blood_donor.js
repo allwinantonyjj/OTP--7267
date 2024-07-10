@@ -51,7 +51,7 @@ define(['N/format', 'N/record', 'N/search', 'N/ui/serverWidget'],
                         type: serverWidget.FieldType.SELECT,
                         container: 'custpage_jj_filterfield'
                     });
-                    blood.addSelectOption({ value: '', text: '' });
+                    blood.addSelectOption({ value: '', text: 'Select Blood Group' });
                     blood.addSelectOption({ value: 1, text: 'A+' });
                     blood.addSelectOption({ value: 2, text: 'A-' });
                     blood.addSelectOption({ value: 3, text: 'B+' });
